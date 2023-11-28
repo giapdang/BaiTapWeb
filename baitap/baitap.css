@@ -1,0 +1,83 @@
+
+body {
+   background-image: url(../images/cool-background.png);
+   background-size: cover;
+}
+
+.box1 {
+    background-color: rgb(255, 240, 215);
+    max-height: max-content;
+    border-radius: 10px;
+    margin: 10px;
+    border: 5px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+.box1 p {
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box1 li {
+   padding-top: 5px;
+
+}
+
+.box1 a {
+   text-decoration: none;
+   
+}
+
+.box1 span {
+   font-size: 20px;
+   color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box2 {
+   max-height: max-content;
+   background-color: rgb(255, 240, 215);
+   border: 5px;
+   border-style: solid;
+   border-color: aliceblue;
+   border-radius: 10px;
+   margin: 10px;
+
+}
+
+.box2 li {
+   padding-bottom: 5px;
+}
+
+.box2 p {
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 30px;
+}
+
+.box2 a {
+   text-decoration: none;
+}
+.box2 span {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   color: black;
+}
+
+/* responsive*/
+
+@media (max-width: 740px){
+
+   body {
+      background-image: url('../images/cool-background.png');
+      background-size: cover;
+   }
+
+   .box1 {
+      display: block;
+      background-color: aqua;
+   }
+
+}

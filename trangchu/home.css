@@ -1,0 +1,156 @@
+body {
+    background-image: url('../images/cool-background.png');
+    background-size: cover;
+
+}
+.menu {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    float: right;
+
+}
+
+.menu li {
+    margin-right: 150px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    
+}
+
+.images {
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    border-radius: 10px;
+    background-image: url('../images/dieu-luat-cong-nghe-thong-tin-640.jpg');
+    background-size: cover;
+    margin: 5px;
+}
+
+.policer {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    border-radius: 10px;
+    height: 100vh;
+    position: relative;
+}
+
+.policer-images {
+    display: inline-block;
+    background-color: rgb(211, 216, 216);
+    background-image: url('../images/anh-dai-dien-FB-200.jpg');
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.policer-thongtin {
+    display: inline-block;
+    background-color: antiquewhite;
+    width: 48%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.policer-story {
+    background-color:antiquewhite;
+    width: 48%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    float: right;
+}
+
+.policer-address {
+    background-color: antiquewhite;
+    width: 48%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 14px;
+    float: right;
+
+}
+
+.policer-links {
+    background-color:antiquewhite;
+    width: 48%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.policer-story p {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+
+}
+
+.policer-thongtin P {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+
+.policer-address P {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+
+.policer-address li {
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.policer-links p {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+
+.policer-links li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.policer-links span {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+.policer-links a {
+    text-decoration: none;
+}
+
+.clean {
+    height: 87px;
+    background-color: black;
+    border-radius: 5px;
+    background-image: url('../images/cool-background\ \(4\).png');
+    background-size: cover;
+}
