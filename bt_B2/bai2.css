@@ -1,0 +1,251 @@
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box1 {
+    height: 20px;
+    background-color: rgb(168, 166, 164);
+    margin: 0px;
+}
+
+.box1 ul {
+    display: flex;
+    margin: 0;
+    
+}
+
+.box1 li {
+    display: block;
+    margin-right: 15px;
+    position: relative;
+    left: 200px;
+    line-height: 20px;
+}
+
+.box1 a {
+    text-decoration: none;
+    
+}
+
+.box1 span {
+    color:rgb(255, 255, 255);
+    
+}
+.menu {
+    height: 120px;
+    background-color: black;
+    margin: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu_box {
+    background-color: rgb(137, 137, 137);
+    margin: 20px;
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    line-height: 40px;
+    
+}
+
+.menu_box a {
+    position: relative;
+    text-decoration: none;
+    left: 20%;
+}
+.menu_box span {
+    color: aliceblue;
+}
+
+.logo {
+    position: relative;
+    display: block;
+    top: 50px;
+}
+
+.box2 {
+    height: 50px;
+    background-color:black;
+    margin: 0;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(160, 170, 179);
+}
+
+.box2 ul {
+    margin: 0;
+    display: flex;
+}
+
+.box2 li {
+    display: block;
+    margin-right: 50px;
+    position: relative;
+    left: 200px;
+    line-height: 50px;
+}
+
+.box2 a {
+    text-decoration: none;
+}
+
+.box2 span {
+    color: rgb(255, 255, 255);
+}
+.bangtin {
+    position: relative;
+    display: flex;
+    height: 300px;
+    background-color: rgb(254, 254, 254);
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 3px;
+    border-color: rgb(134, 134, 119);
+    border-top-style: dotted;
+    border-bottom-style: solid;
+    justify-content: space-between;
+
+}
+.bangtin_box {
+    width: 25%;
+    height: 150px;
+    background-color: aquamarine;
+    margin: 20px;
+    position: relative;
+}
+
+.bangtin_box img {
+    width: 100%;
+    height: 100%;
+}
+
+.bangtin_box h4 {
+    display: block;
+    margin: 2px;
+}
+.bangtin_box a {
+    position: relative;
+    text-decoration: none;
+    color:black;
+    overflow: hidden;
+}
+.boxchinh {
+    position: relative;
+    height: 5500px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.tieude {
+    position: relative;
+    width: 75%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 2px;
+    border-bottom-style: dotted;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.tieude p {
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}
+
+.baiviet {
+    position: relative;
+    width: 70%;
+    height: 5200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    border: 2px;
+    border-bottom-style: dotted;
+}
+
+.baiviet p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.baiviet ul {
+    display: block;
+}
+
+.baiviet li {
+    margin-top: 5px;
+}
+.baiviet a {
+    text-decoration: none;
+}
+
+.baiviet span {
+    color: rgb(0, 0, 0);
+}
+
+.anh1 {
+    width: 95%;
+    height: 500px;
+    background-color: aquamarine;
+    margin-left: 2.5%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.anh1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#p1 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#p2 {
+    position: relative;
+}
+
+.anh2 {
+    position: relative;
+    width: 95%;
+    height: 400px;
+    background-color: brown;
+    margin-left: 2.5%;
+}
+
+.anh2 img {
+    width: 100%;
+    height: 100%;
+}
+
+#em1 {
+    left: 20px;
+    position: relative;
+    margin: 10px;
+}
+
+.anh3 {
+    position: relative;
+    width: 95%;
+    height: 400px;
+    background-color: rgb(219, 219, 219);
+    margin-left: 2.5%;
+}
+.anh3 img {
+    width: 100%;
+    height: 100%;
+}
+
