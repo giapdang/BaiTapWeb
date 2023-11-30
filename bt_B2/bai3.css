@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.tong {
+    position: relative;
+    display: flex;
+    width: 1500px;
+    height: 600px;
+    background-color: antiquewhite;
+    justify-content: center;
+    line-height: 600px;
+    align-items: center;
+}
+
+.box1 {
+    width: 400px;
+    height: 310px;
+    background-color: rgb(254, 255, 255);
+    margin: 20px;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}
+
+.box1 img:hover {
+    opacity: 100%;
+    
+}
+
