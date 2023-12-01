@@ -1,0 +1,18 @@
+
+.box1 {
+    width: auto;
+    height: auto;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: left;
+    background-color: aliceblue;
+}
+
+@media (max-width:740px) {
+    .box1 {
+        border:3px solid rgb(0, 0, 0) ;
+        height: auto;
+        width: auto;
+        text-align: left;
+        overflow: auto;
+    }
+}
