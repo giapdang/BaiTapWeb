@@ -1,6 +1,9 @@
 body {
     background-image: url('../images/cool-background.png');
     background-size: cover;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
 
 }
 .menu {
@@ -15,7 +18,6 @@ body {
     list-style: none;
     display: flex;
     float: right;
-
 }
 
 .menu li {
@@ -30,6 +32,10 @@ body {
     text-align: center;
     float: right;
     
+}
+
+.menu a:hover {
+    color: darkcyan;
 }
 
 .images {
@@ -47,6 +53,8 @@ body {
     border-radius: 10px;
     height: 100vh;
     position: relative;
+    background-image: url('../images/3306588.jpg');
+    background-size: cover;
 }
 
 .policer-images {
@@ -62,6 +70,11 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.policer-images:hover {
+    border: 10px solid #91e8f5;
 }
 
 .policer-thongtin {
@@ -71,6 +84,8 @@ body {
     height: 300px;
     border-radius: 10px;
     margin: 10px;
+    background-image: url('../images/gradient-geometric-background_23-2149329962.jpg');
+    background-size: cover;
 }
 
 .policer-story {
@@ -80,16 +95,19 @@ body {
     border-radius: 10px;
     margin: 10px;
     float: right;
+    background-image: url('../images/gradient-monochromatic-abstract-background_23-2149133889.jpg');
+    background-size: cover;
 }
 
 .policer-address {
+    background-image: url('../images/gradient-geometric-background_23-2149329962.jpg');
+    background-size: cover;
     background-color: antiquewhite;
     width: 48%;
     height: 300px;
     border-radius: 10px;
     margin: 14px;
     float: right;
-
 }
 
 .policer-links {
@@ -98,9 +116,12 @@ body {
     height: 300px;
     border-radius: 10px;
     margin: 10px;
+    background-image: url('../images/gradient-monochromatic-abstract-background_23-2149133889.jpg');
+    background-size: cover;
 }
 
 .policer-story p {
+    box-sizing: border-box;
     text-align: center;
     font-size: large;
     padding: 10px;
@@ -108,49 +129,61 @@ body {
 }
 
 .policer-thongtin P {
+    box-sizing: border-box;
     text-align: center;
     font-size: large;
     padding: 10px;
 }
 
 .policer-address P {
+    box-sizing: border-box;
     text-align: center;
     font-size: large;
     padding: 10px;
 }
 
 .policer-address li {
+    box-sizing: border-box;
     text-align: center;
     list-style-type: none;
     padding: 10px;
 }
 
 .policer-links p {
+    box-sizing: border-box;
     text-align: center;
     font-size: large;
-    padding: 10px;
+    padding-top: 30px;
 }
 
 .policer-links li {
+    box-sizing: border-box;
     list-style-type: none;
     padding: 5px;
 }
 
 .policer-links span {
+    box-sizing: border-box;
     color: black;
     text-decoration: none;
     padding: 20px;
     
 }
 
+.policer-links span:hover {
+    color: darkcyan;
+}
+
+
 .policer-links a {
+    box-sizing: border-box;
     text-decoration: none;
 }
 
 .clean {
-    height: 87px;
-    background-color: black;
-    border-radius: 5px;
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
     background-image: url('../images/cool-background\ \(4\).png');
     background-size: cover;
 }
