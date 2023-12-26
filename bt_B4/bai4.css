@@ -185,3 +185,108 @@ body {
 .kt:hover i {
     color: #ffffff;
 }
+
+#nh1 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    color: #000000;
+}
+
+#np1 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(101, 98, 98);
+}
+
+.noidung {
+    width: 100%;
+    min-height: 600px;
+    /* background-color: black; */
+    margin-top: 70px;
+}
+
+.chua {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    min-height: 300px;
+    /* background-color: rgb(145, 42, 42); */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.box {
+    /* background-color: royalblue; */
+    box-sizing: border-box;
+}
+
+.box , .lop1 , .lop2 {
+    width: 259px;
+    height: 350px;
+}
+
+
+.lop1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.lop2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.lop2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.box:hover .lop2 {
+    opacity: 1;
+}
+
+.chu {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 130px;
+    /* background-color: #82B541; */
+    margin-left: 10%;
+}
+
+.chu1 {
+    width: 259px;
+    height: 80px;
+    margin-top: 0px;
+    /* background-color: antiquewhite; */
+    margin-top: 20px;
+}
+
+.a1 {
+    font-size: 20px;
+    color: black;
+    font-weight: 40px;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+
+.a2 {
+    font-size: 15px;
+    color: black;
+
+}
+
+.a2:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
