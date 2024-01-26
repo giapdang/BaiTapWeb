@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: aqua;  */
+    /* background-image: url("../images/blur.png");
+    background-size: cover; */
+}
+
+.menu {
+    width: 100%;
+    min-height: 100px;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 10px rgba(166, 168, 168, 0.5);
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    /* background-color: rgb(255, 0, 0); */
+    margin-left: 50px;
+
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    /* Tùy chọn: loại bỏ đường gạch chân cho liên kết */
+    color: black;
+    /* Tùy chọn: màu chữ */
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.logo img {
+    margin-right: 10px;
+    /* Tùy chọn: thêm khoảng trắng giữa ảnh và chữ */
+    margin-top: 10px;
+}
+
+.menu1 {
+    width: 100%;
+    min-height: 50px;
+    /* background-color: rgb(163, 104, 104); */
+}
+
+.menu1 ul {
+    display: flex;
+    margin-left: 120px;
+}
+
+.menu1 li {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.menu1 a {
+    color: rgb(98, 98, 98);
+}
+
+
+.menu1 a:hover {
+    color: rgb(74, 219, 255);
+    /* Set the desired hover color */
+    text-decoration: none;
+    /* Remove the default underline */
+    position: relative;
+}
+
+.menu1 a:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    /* Set the desired underline color */
+    animation: underline 1s linear forwards;
+    /* Set the animation properties */
+}
+
+#home1 {
+    color: rgb(74, 219, 255);
+    text-decoration: underline solid red 2px;
+    text-underline-offset: 4px;
+}
+
+#a1 {
+    color: black;
+
+}
+
+@keyframes underline {
+    0% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.menu1 button {
+    width: 120px;
+    height: 40px;
+    margin-left: 200px;
+    /* margin-top: 10px; */
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #ff5757;
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+    /* Gradient từ màu #ff5757 đến màu #8c52ff */
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.noidung {
+    width: 100%;
+    min-height: 645px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/1061492_7389.jpg");
+    background-size: cover;
+    /* opacity: 1.2; */
+}
+
+.box1 {
+    width: 30%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 0 10px 7px rgba(166, 168, 168, 0.5);
+}
+
+.box2 {
+    border-left: 1px solid black;
+    width: 30%;
+    height: 500px;
+    background-color: #1FBD9E;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 10px 7px #5cf8d9 ;
+}
+
+#bh1 {
+    color: #0DA48C;
+    font-size: 27px;
+    margin-top: 25px;
+    margin-left: 35px;
+    
+}
+
+#bp1 {
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 25px;
+}
+
+#bh2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+.ul1 {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.ul1 li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+}
+
+.ul1 i {
+    color: #0DA48C;
+    font-size: 19px;
+    margin-right: 10px;
+}
+
+.ul1 li:hover {
+    color: #ff0000;
+
+}
+
+.ul2 {
+    display: flex;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.ul2 li {
+    width: 45px;
+    height: 45px;
+    background-color: #0DA48C;
+    margin-left: 10px;
+    border-radius: 13px;
+    margin-top: 5px;
+}
+
+.ul2 a {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.ul2 li:hover {
+    background-color: #ff5757;
+}
+
+
+
+#box2h1 {
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+.ul3 input {
+    margin-left: 35px;
+    width: 370px;
+    height: 55px;
+    margin-right: 35px;
+    margin-bottom: 17px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: #1FBD9E;
+    outline: none;
+}
+
+#Mess {
+    height: 150px;
+}
+
+#Messenger::placeholder {
+    text-align: start;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+#button2 {
+  margin-left: 35px;
+  width: 75px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  background-color: white;
+  color: #1FBD9E;
+}
+

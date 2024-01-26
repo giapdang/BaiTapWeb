@@ -10,7 +10,7 @@
     width: 100%;
     min-height: 100vh;
     /* background-color: aqua; */
-    /* background-image: url("../images/blur.png");
+    /* background-image: url("../images/4734683_2239793.jpg");
     background-size: cover; */
 }
 
@@ -29,6 +29,7 @@
     /* background-color: blueviolet; */
     display: flex;
     align-items: center;
+    
 }
 
 .nut {
@@ -140,8 +141,6 @@
         transform: scaleX(1);
     }
 }
-
-
 
 .menu1 button {
     width: 120px;
