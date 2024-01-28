@@ -169,7 +169,7 @@
     background-color: #1FBD9E;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 0 0 10px 7px #5cf8d9 ;
+    box-shadow: 0 0 10px 7px #5cf8d9;
 }
 
 #bh1 {
@@ -177,7 +177,7 @@
     font-size: 27px;
     margin-top: 25px;
     margin-left: 35px;
-    
+
 }
 
 #bp1 {
@@ -204,7 +204,7 @@
 .ul1 li {
     margin-bottom: 10px;
     font-size: 16px;
-    
+
 }
 
 .ul1 i {
@@ -281,13 +281,81 @@
 }
 
 #button2 {
-  margin-left: 35px;
-  width: 75px;
-  height: 35px;
-  border-radius: 20px;
-  border: none;
-  font-weight: bold;
-  background-color: white;
-  color: #1FBD9E;
+    margin-left: 35px;
+    width: 75px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    color: #1FBD9E;
 }
 
+/* Your existing CSS */
+
+@media only screen and (max-width: 576px) {
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        box-shadow: none;
+        text-align: center;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .menu1 {
+        margin-left: 20px;
+    }
+
+    .menu1 ul {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .menu1 li {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .menu1 button {
+        margin-left: 180px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .noidung {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1,
+    .box2 {
+        width: 80%;
+        margin: 20px 0;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 7px rgba(166, 168, 168, 0.5);
+    }
+
+    #bh1,
+    #bp1,
+    #bh2,
+    .ul1,
+    .ul2,
+    .ul3 input,
+    #Mess,
+    #box2h1 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .ul1 i {
+        margin-right: 5px;
+    }
+
+    .ul3 input {
+        width: calc(100% - 40px);
+        /* Chiều rộng của ô input là 100% với khoảng cách margin là 20px ở cả hai bên */
+    }
+}

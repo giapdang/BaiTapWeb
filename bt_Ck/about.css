@@ -180,7 +180,7 @@
 .box4 {
     display: flex;
     width: 100%;
-    height: 75px;
+    min-height: 75px;
     /* background-color: #e4d2d2; */
     margin-top: 37px;
 }
@@ -197,7 +197,7 @@
     width: 100%;
     height: 285px;
     background-color: antiquewhite;
-    
+
 }
 
 .anh1 img {
@@ -253,6 +253,7 @@
     box-shadow: 0 0 10px 10px rgba(118, 241, 241, 0.5);
     transform: scale(1.1);
 }
+
 .cv {
     width: 100%;
     min-height: 100px;
@@ -297,6 +298,7 @@
 .upload button:hover {
     background-color: rgb(226, 16, 16);
 }
+
 #ap1 {
     padding-top: 123px;
     text-align: center;
@@ -381,6 +383,7 @@
     color: #58CBD8;
     transition: all 0.3s ease;
 }
+
 .ul2 i {
     color: white;
 }
@@ -415,7 +418,6 @@
     width: 70%;
     height: 150px;
     background-color: rgb(255, 255, 255);
-   
 }
 
 .sologan h1 {
@@ -438,4 +440,110 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media(max-width:576px) {
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        box-shadow: none;
+        text-align: center;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .menu1 {
+        margin-left: 20px;
+    }
+
+    .menu1 ul {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .menu1 li {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .menu1 button {
+        margin-left: 180px;
+        margin-top: 10px;
+    }
+    .images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aanh {
+        box-sizing: border-box;
+        margin-top: 25px;
+        margin-left: 5%;
+        /* Adjusted margin */
+        width: 40%;
+        /* Adjusted width */
+        height: auto;
+        /* Adjusted height for responsive design */
+        background-color: rgb(255, 255, 255);
+        margin-right: 5%;
+        /* Adjusted margin */
+    }
+
+    .sologan {
+        box-sizing: border-box;
+        margin-top: 25px;
+        width: 50%;
+        /* Adjusted width */
+        height: auto;
+        /* Adjusted height for responsive design */
+        background-color: rgb(255, 255, 255);
+    }
+
+    .noidung {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1 {
+        width: 80%;
+        min-height: 400px;
+        /* background-color: #8c52ff; */
+        margin-left: 0;
+    }
+
+    .box2 {
+        width: 80%;
+        min-height: 600px;
+        /* background-color: #cac8c8; */
+    }
+
+    .box3 {
+        width: 80%;
+        min-height: 400px;
+        /* background-color: #8c52ff; */
+        margin-right: 0;
+    }
+
+    .download {
+        width: 80%;
+        min-height: 75px;
+        /* background-color: bisque; */
+        border-right: 1px solid rgb(81, 79, 79);
+        border-top: 1px solid rgb(81, 79, 79);
+    }
+
+    .upload {
+        border-top: 1px solid rgb(81, 79, 79);
+        width: 80%;
+        min-height: 75px;
+        /* background-color: bisque; */
+    }
+
+    .box4 {
+        display: fles;
+        /* flex-direction: column; */
+        min-height: auto;
+    }
 }
