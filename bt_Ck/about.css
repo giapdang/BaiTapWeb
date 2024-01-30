@@ -23,6 +23,19 @@
     box-shadow: 0 0 10px 10px rgba(166, 168, 168, 0.5);
 }
 
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    transition: top 0.3s;
+    z-index: 999;
+}
+
+.menu.scrolled {
+    top: -100px;
+}
+
 .logo {
     width: 150px;
     height: 50px;
@@ -155,6 +168,8 @@
     width: 100%;
     min-height: 600px;
     /* background-color: aquamarine; */
+    background-image: url("../images/1061492_7389.jpg");
+    background-size: cover;
 }
 
 .box1 {
@@ -250,7 +265,7 @@
 }
 
 .anhdd img:hover {
-    box-shadow: 0 0 10px 10px rgba(118, 241, 241, 0.5);
+    box-shadow: 0 0 10px 10px rgba(80, 254, 254, 0.5);
     transform: scale(1.1);
 }
 
@@ -318,7 +333,7 @@
 #bh1 {
     padding-top: 35px;
     font-size: 30px;
-    color: #58CBD8;
+    color: rgb(16, 195, 226);
     font-weight: bold;
     padding-left: 35px;
 }
@@ -334,7 +349,7 @@
 #hh1 {
     padding-top: 35px;
     font-size: 20px;
-    color: #58CBD8;
+    color: rgb(16, 195, 226);
     font-weight: bold;
     /* padding-left: 35px; */
 }
@@ -368,7 +383,7 @@
 .ul2 li {
     width: 50px;
     height: 50px;
-    background-color: #58CBD8;
+    background-color: #59d4e1;
     margin-left: 20px;
     text-align: center;
     line-height: 50px;
@@ -400,6 +415,7 @@
     border-top: 1px solid black; */
     margin-top: 20px;
     /* box-shadow: 0 0 10px 10px rgba(162, 236, 236, 0.5) inset; */
+    padding-top: 100px;
 }
 
 .aanh {
@@ -428,6 +444,12 @@
     /* line-height: 130px; */
     margin-top: 30px;
     margin-bottom: 5px;
+}
+
+.sologan h1:hover {
+    color: rgb(238, 158, 10);
+    transition: all 0.3s ease;
+
 }
 
 .sologan p {
@@ -545,5 +567,9 @@
         display: fles;
         /* flex-direction: column; */
         min-height: auto;
+    }
+
+    .images {
+        padding-top: 400px;   
     }
 }

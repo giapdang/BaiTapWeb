@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: aqua;  */
+    /* background-image: url("../images/blur.png");
+    background-size: cover; */
+}
+
+.menu {
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 10px rgba(166, 168, 168, 0.5);
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    transition: top 0.3s;
+    z-index: 999;
+}
+
+.menu.scrolled {
+    top: -100px;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    /* background-color: rgb(255, 0, 0); */
+    margin-left: 50px;
+
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    /* Tùy chọn: loại bỏ đường gạch chân cho liên kết */
+    color: black;
+    /* Tùy chọn: màu chữ */
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.logo img {
+    margin-right: 10px;
+    /* Tùy chọn: thêm khoảng trắng giữa ảnh và chữ */
+    margin-top: 10px;
+}
+
+.menu1 {
+    width: 100%;
+    min-height: 50px;
+    /* background-color: rgb(163, 104, 104); */
+}
+
+.menu1 ul {
+    display: flex;
+    margin-left: 120px;
+}
+
+.menu1 li {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.menu1 a {
+    color: rgb(98, 98, 98);
+}
+
+
+.menu1 a:hover {
+    color: rgb(74, 219, 255);
+    /* Set the desired hover color */
+    text-decoration: none;
+    /* Remove the default underline */
+    position: relative;
+}
+
+.menu1 a:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    /* Set the desired underline color */
+    animation: underline 1s linear forwards;
+    /* Set the animation properties */
+}
+
+#home1 {
+    color: rgb(74, 219, 255);
+    text-decoration: underline solid red 2px;
+    text-underline-offset: 4px;
+}
+
+#a1 {
+    color: black;
+
+}
+
+@keyframes underline {
+    0% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.menu1 button {
+    width: 120px;
+    height: 40px;
+    margin-left: 200px;
+    /* margin-top: 10px; */
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #ff5757;
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+    /* Gradient từ màu #ff5757 đến màu #8c52ff */
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+
+.sileshow {
+    width: 100%;
+    min-height: 150px;
+    background-color: #ff5757;
+}
+
+.noidung {
+    width: 100%;
+    min-height: 700px;
+    /* background-color: rgb(0, 0, 0); */
+    padding-top: 100px;
+    background-image: url("../images/1061492_7389.jpg");
+    background-size: cover;
+}
+
+.boxbt {
+    width: 100%;
+    min-height: 400px;
+    /* background-color:rgb(75, 231, 223) ; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    /* background-color: aqua ; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.job-details {
+    /* background-color: #8c52ff; */
+    text-align: center;
+    height: 100px;
+}
+
+.view-details {
+    color: #000000;
+    width: 130px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 20px;
+    border-color: white;
+    border: none;
+}
+
+.view-details:hover {
+    background-color: #ff5757;
+    background: linear-gradient(to right, #ff5757, #8c52ff);
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+
+.view-details i {
+    margin-right: 10px;
+}
+
+.job-details-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.job-details-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(7, 245, 225);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.close-details {
+    margin-top: 10px;
+}
+
+.code-snippets {
+    margin-top: 20px;
+}
+
+.code-snippets h4 {
+    margin-bottom: 10px;
+}
+
+.code-snippets pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+#boxh1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    margin-bottom: 5px;
+    color: rgb(237, 209, 50);
+}
+
+.kt {
+    width: 100%;
+    min-height: 200px;
+    background-color: #000000;
+}
+
+#boxb1 {
+    border-top: 2px solid white;
+}
+
+.job-details h3 {
+    margin-top: 5px;
+    box-sizing: border-box;
+    padding-top: 5px;
+}

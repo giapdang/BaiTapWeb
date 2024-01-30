@@ -151,6 +151,7 @@
     background-image: url("../images/1061492_7389.jpg");
     background-size: cover;
     /* opacity: 1.2; */
+    /* padding-top: 250px; */
 }
 
 .box1 {
@@ -291,6 +292,11 @@
     color: #1FBD9E;
 }
 
+#button2:hover {
+    background-color: #ff5757;
+    color: white;
+}
+
 /* Your existing CSS */
 
 @media only screen and (max-width: 576px) {
@@ -299,6 +305,19 @@
         align-items: flex-start;
         box-shadow: none;
         text-align: center;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+        transition: top 0.3s;
+        z-index: 999;
+    }
+
+    .menu.scrolled {
+        top: -100px;
     }
 
     .logo {
@@ -357,5 +376,9 @@
     .ul3 input {
         width: calc(100% - 40px);
         /* Chiều rộng của ô input là 100% với khoảng cách margin là 20px ở cả hai bên */
+    }
+
+    .noidung {
+        padding-top: 300px;
     }
 }

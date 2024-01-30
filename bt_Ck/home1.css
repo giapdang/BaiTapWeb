@@ -23,13 +23,26 @@
     box-shadow: 0 0 10px 10px rgba(166, 168, 168, 0.5);
 }
 
+.menu.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.menu.fixed ul li a {
+    color: #333;
+}
+
 .noidung {
     min-height: 500px;
     width: 100%;
     /* background-color: blueviolet; */
     display: flex;
     align-items: center;
-    
 }
 
 .nut {
@@ -253,6 +266,19 @@
         text-align: center;
     }
 
+    .menu {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+        transition: top 0.3s;
+        z-index: 999;
+    }
+    
+    .menu.scrolled {
+        top: -100px;
+    }
+
     .logo {
         margin-left: 20px;
     }
@@ -315,6 +341,10 @@
         box-sizing: border-box;
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    .noidung {
+        padding-top: 270px;
     }
 }
 

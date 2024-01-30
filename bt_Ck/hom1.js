@@ -61,7 +61,7 @@ typeEffect();
  }
 
  // Start the slideshow
- setInterval(changeImage, 2000); // Change image every 2 seconds
+ setInterval(changeImage, 4000); // Change image every 2 seconds
 
  document.getElementById("button1").addEventListener("click", function() {
     this.style.animation = "rotate 1s linear";

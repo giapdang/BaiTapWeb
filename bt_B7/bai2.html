@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon (1).ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bai2.css">
+    <title>Công Nghệ</title>
+    <style>
+        .tab {
+            display: none;
+        }
+
+        #tab1 {
+            display: block;
+        }
+
+        .tab-button {
+            cursor: pointer;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+
+        .initial-hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <div id="navbar-right">
+                <a class="active" href="">Home</a>
+                <a href="#community">Contact</a>
+                <a href="#story">Story</a>
+                <a href="#gameplay">News</a>
+                <a href="#character">Cpu</a>
+                <a href="#wallpaper">Ram</a>
+            </div>
+        </div>
+        <div style="margin-top: 190px;">
+            <h1 id="h1">Công nghệ thời đại</h1>
+            <!-- <img src="https://image.api.playstation.com/vulcan/ap/rnd/202105/2013/GwSAeFfo5jYUym8ztHvsNDHu.png" id="img1" class="center-wrapper"> -->
+        </div>
+        <div class="divchua">
+            <a href="#platform" class="a1">Hướng tới tương lai</a>
+        </div>
+    </header>
+    <main>
+        <h2 id="community">Contact</h2>
+        <div class="line">
+            <img src="https://en.enderlilies.com/images/line.png">
+        </div>
+        <div class="flex-container2">
+            <div class="bo2">
+                <div class="lop2a" style="position:absolute;top:17px; left:18px;">
+                    <i class="fa-brands fa-facebook" style="font-size: 50pt;color:#ffffff;"></i>
+                </div>
+                <a href="https://www.facebook.com/EnderLilies/" class="lop1a"></a>
+            </div>
+            <div class="bo2">
+                <div class="lop2a" style="position:absolute;top:17px; left:18px;">
+                    <i class="fa-brands fa-x-twitter" style="font-size: 50pt;color:#ffffff;"></i>
+                </div>
+                <a href="https://twitter.com/EnderLiliesGame" class="lop1a"></a>
+            </div>
+            <div class="bo2">
+                <div class="lop2a" style="position:absolute;top:21px; left:17px;">
+                    <i class="fa-brands fa-youtube" style="font-size: 45pt;color:#ffffff;"></i>
+                </div>
+                <a href="https://www.youtube.com/channel/UCK8-3pjkvRHK0FTKql620AQ" class="lop1a"></a>
+            </div>
+        </div>
+        <h2 id="story">STORY</h2>
+        <div class="line">
+            <img src="https://en.enderlilies.com/images/line.png">
+        </div>
+        <div class="flex-container3">
+            <div>
+                <p style="margin-top:10px;font-size: 20pt;text-align: left;">
+                    Dell G5 Gaming Desktop
+                    Máy tính mới nhất dòng G của Dell có thể là đối thủ cứng của Alienware Aurora nếu so về tầm giá trên
+                    thị trường PC gaming. Chiếc Dell G5 được trang bị chip Intel thế hệ 9, card đồ họa chơi game Nvidia
+                    GTX và RTX mạnh nhất. Cấu hình khởi điểm từ core i3 và GTX 1650, đủ để chiến những tựa game mạnh mẽ
+                    nhất mà vẫn vừa túi tiền.
+                </p>
+            </div>
+            <div>
+                <img src="https://st.quantrimang.com/photos/image/2020/09/09/top-pc-tot-nhat-4.jpg">
+            </div>
+        </div>
+        <h2 id="gameplay">News</h2>
+        <div class="line">
+            <img src="https://en.enderlilies.com/images/line.png">
+        </div>
+        <h2>Các dòng máy mới tốt hiện nay </h2>
+        <p style="margin-top: 10px;text-align: center;width:80%; font-size: 20pt;">
+            Một PC mạnh mẽ là điều cần thiết đối với bất kì ai hay phải sử dụng máy tính. Thực tế, để chạy được những
+            tựa game AAA có yêu cầu cao cũng như kiến tạo những tác phẩm 3D độc đáo hay chỉnh sửa những thước phim có
+            thể đạt giải Oscar, tất cả những gì bạn cần gói gọn trong ba cái tên này: Intel, AMD và Nvidia. Bộ vi xử lý
+            và card đồ họa hoạt động càng ấn tượng thì máy tính càng mạnh mẽ. Dưới đây là top những chiếc PC mạnh nhất ở
+            thời điểm hiện tại, hãy chọn cho mình một chiếc máy tính phù hợp với túi tiền nhé.
+        </p>
+        <div class="hoptab">
+            <div class="flex-container4">
+                <button class="tab-button" onclick="openTab('tab1')">Dell XPS Tower</button>
+                <button class="tab-button" onclick="openTab('tab2')">iMac (27-inch, 2020)</button>
+                <button class="tab-button" onclick="openTab('tab3')">Alienware Aurora Ryzen Edition R10</button>
+            </div>
+            <div id="tab1" class="tab initial-hide">
+                <h2>Dell XPS Tower</h2>
+                <img src="https://st.quantrimang.com/photos/image/2020/09/09/top-pc-tot-nhat-1.jpg" class="img">
+                <p class="p3">
+                    Dell XPS Tower trở thành chiếc máy tính tốt nhất năm nay nhờ một yếu tố vô cùng đơn giản: nó mang
+                    lại hiệu năng mạnh mẽ và tính năng vừa đủ mà không khiến cho túi bạn cháy khét lẹt. Chiếc XPS Tower
+                    mới nhất được trang bị vi xử lý Intel thế hệ 9, đồ họa VR-ready cao cấp, có thể tái cấu hình máy,
+                    đảm bảo sử dụng được lâu dài. Hơn thế nữa, kể cả có lựa chọn phiên bản cấu hình tốt thì mức giá của
+                    chiếc máy tính này vẫn rất vừa tầm. Dell XPS Tower có ngoại hình giống với các cây PC phổ thông, vì
+                    vậy chẳng mấy ai phàn nàn được gì về ngoại hình của chiếc máy.
+                </p>
+            </div>
+            <div id="tab2" class="tab initial-hide">
+                <h2>iMac (27-inch, 2020)</h2>
+                <img src="https://st.quantrimang.com/photos/image/2020/09/09/top-pc-tot-nhat-2.jpg" class="img">
+                <p class="p3">
+                    Bản nâng cấp mới nhất của iMac năm nay đã nhận được cái gật đầu từ phía người hâm mộ. Cấu hình mạnh
+                    mẽ, cải tiến cực nhiều bao gồm webcam, microphone và cả những tiểu tiết khiến iMac 2020 trở thành
+                    chiếc máy tính gần như hoàn hảo. Mặc dù vẻ bề ngoài không có gì thay đổi nhưng chưa mấy ai ngán ngẩm
+                    với ngôn ngữ thiết kế này của Apple. Khá là chắc kèo iMac vẫn là chiếc PC all-in-one xinh đẹp và
+                    duyên dáng nhất hiện nay.
+                </p>
+            </div>
+            <div id="tab3" class="tab initial-hide">
+                <h2>Alienware Aurora Ryzen Edition R10</h2>
+                <img src="https://st.quantrimang.com/photos/image/2020/09/09/top-pc-tot-nhat-3.jpg" class="img">
+                <p class="p3">
+                    Trên thị trường PC gaming, Alienware Aurora Ryzen Edition R10 là chiếc máy tính đáng chú ý nhất. Nó
+                    không chỉ mang đến sức mạnh tuyệt đối để chơi game, mức giá của nó không phải quá cao, khiến cho các
+                    game thủ đôi khi cũng yếu lòng nhắm mắt đưa ví để có được một trải nghiệm chơi game đỉnh cao nhất
+                    trên thị trường hiện nay. Nếu bạn đang tìm kiếm một chiếc PC gaming mạnh mẽ, Alienware Aurora Ryzen
+                </p>
+            </div>
+        </div>
+        <h2 id="character" style="margin-top: 20px;">Top Cpu</h2>
+        <div class="line">
+            <img src="https://en.enderlilies.com/images/line.png">
+        </div>
+        <div class="flex-container5">
+            <div>
+                <p
+                    style="text-align: left;font-size: 30pt;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin-bottom: 10px;">
+                    AMD Ryzen 9 7900X</p>
+                <p style="text-align: justify;font-size: 20pt;">
+                    Ryzen 9 7900X là bộ xử lý mười hai nhân của AMD dành cho máy tính để bàn. 12 lõi CPU này hỗ trợ đa
+                    luồng đồng thời và có thể chạy hai luồng cho mỗi lõi cùng một lúc và có tối đa 24 luồng. Nó đáp ứng
+                    đủ cho các trò chơi máy tính nhanh hoặc các ứng dụng chuyên nghiệp như chỉnh sửa hình ảnh hoặc video
+                    hoặc phần mềm CAD. Xung nhịp cơ bản của AMD Ryzen 9 7900X đã cao ở mức 4,7 GHz. Điều này có thể được
+                    tăng lên đến 5,6 GHz thông qua chế độ turbo. Bộ xử lý phải hoạt động trong một phạm vi nhiệt độ xác
+                    định để có thể sử dụng xung nhịp turbo tối đa. Nếu nhiệt độ quá cao, tần số đồng hồ sẽ tự động giảm
+                    xuống.
+                </p>
+            </div>
+            <div>
+                <img src="https://mega.com.vn/media/news/0903_cpu-amd-ryzen-9-7900x.jpg"
+                    style="margin-left: 140px;height: 450px;">
+            </div>
+        </div>
+        <div class="flex-container5">
+            <div>
+                <img src="https://mega.com.vn/media/news/0903_cpu-intel-core-i9-13900kf-box.jpg"
+                    style="margin-left: 140px;height: 450px; margin-right: 20px;">
+            </div>
+            <div>
+                <p
+                    style="text-align: left;font-size: 30pt;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin-bottom: 10px;">
+                    Core i9 - 13900KF</p>
+                <p style="text-align: justify;font-size: 20pt;">
+                    Intel Core i9 – 13900KF sẽ là chip Core i9 thế hệ thứ 13 nhanh nhất được cung cấp trong dòng sản
+                    phẩm CPU Raptor Lake. Con chip này có tổng cộng 24 lõi và 32 luồng. Cấu hình này được thực hiện với
+                    8 P – Core dựa trên kiến trúc Raptor và 16 E – Core dựa trên kiến trúc lõi Grace Mont. Khả năng đa
+                    phương tiện và đồ họa Intel UHD 770 cho phép tăng cường độ phức tạp của hình ảnh, nâng cao hiệu suất
+                    3D và xử lý hình ảnh nhanh hơn. Từ các trải nghiệm xem phim ở độ phân giải 8K hoặc tối đa 4 màn hình
+                    4K chất lượng cao.
+                </p>
+            </div>
+        </div>
+        <h2 id="wallpaper" style="margin-top: 20px;">Ram</h2>
+        <div class="line">
+            <img src="https://en.enderlilies.com/images/line.png">
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="https://maytinhanphat.vn/img/image/tin/707/10-loai-ram-tot-nhat-danh-cho-may-tinh-cua-ban-1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://image.lag.vn/upload/news/21/11/14/0_ZMUI.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://cdn.sforum.vn/sforum/wp-content/uploads/2022/01/ram-ddr5-8-e1641804344831.jpg" style="width:100%">
+            </div>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+        <script>openTab(tabName);</script>
+        <script>
+            // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                    document.getElementById("navbar").style.padding = "25px 10px";
+                    document.getElementById("logo").style.width = "150px";
+                    document.getElementById("logo").style.height = "50px";
+                } else {
+                    document.getElementById("navbar").style.padding = "25px 10px";
+                    document.getElementById("logo").style.width = "130px";
+                    document.getElementById("logo").style.height = "40px";
+                }
+            }
+        </script>
+    </main>
+    <footer></footer>
+    <script src="bai2.js"></script>
+</body>
+
+</html>
