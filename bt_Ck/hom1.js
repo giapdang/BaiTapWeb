@@ -69,3 +69,26 @@ typeEffect();
         this.style.animation = "";
     }, 1000);
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    var menu = document.querySelector('.menu1');
+    var icon = document.querySelector('.icon');
+
+    // Hàm để chuyển đổi lớp 'active' trên menu
+    function toggleMenu() {
+        menu.classList.toggle('active');
+    }
+
+    // Bộ lắng nghe sự kiện cho biểu tượng
+    icon.addEventListener('click', toggleMenu);
+});
+
+function toggleMenu() {
+    var menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+}
+
+function toggleMenu() {
+    var menu1 = document.querySelector('.menu');
+    menu1.style.display = (menu1.style.display === 'none' || menu1.style.display === '') ? 'block' : 'none';
+}

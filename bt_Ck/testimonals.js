@@ -10,3 +10,14 @@ document.getElementById("button1").addEventListener("click", function() {
         this.style.animation = "";
     }, 1000);
 });
+
+
+function toggleMenu() {
+    var menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+}
+
+function toggleMenu() {
+    var menu1 = document.querySelector('.menu');
+    menu1.style.display = (menu1.style.display === 'none' || menu1.style.display === '') ? 'block' : 'none';
+}

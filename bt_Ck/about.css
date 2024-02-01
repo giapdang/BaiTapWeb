@@ -569,7 +569,36 @@
         min-height: auto;
     }
 
-    .images {
+    /* .images {
         padding-top: 400px;   
+    } */
+}
+
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
     }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        background-color: #333;
+        color: white;
+        display: block;
+        font-size: 35px;
+        text-align: center;
+        line-height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+        position: fixed;
+        /* Change position to fixed */
+        z-index: 999;
+    }
+
+}
+
+.menu1.scrolled {
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

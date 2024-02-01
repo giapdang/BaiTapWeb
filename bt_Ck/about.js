@@ -44,24 +44,12 @@ document.querySelector('.download button').addEventListener('click', function ()
     window.location.href = window.location.href;
 });
 
-// const text = "Để học backend hiệu quả, trước hết, cần có kiến thức cơ bản về ngôn ngữ lập trình như Python, Java hoặc Node.js. Hiểu về cơ sở dữ liệu như MySQL, PostgreSQL, hoặc MongoDB là quan trọng. Việc nắm vững khái niệm về API và HTTP cũng là yếu tố quan trọng. Học về các framework như Flask, Django (cho Python), Spring (cho Java) hoặc Express (cho Node.js) cũng giúp bạn xây dựng ứng dụng backend một cách hiệu quả. Ngoài ra, hiểu về các công cụ quản lý mã nguồn như Git và kỹ năng kiểm thử cũng là những điều quan trọng để phát triển thành một lập trình viên backend thành công.";
-// const delay = 100; // Delay in milliseconds
+function toggleMenu() {
+    var menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+}
 
-// let index = 0;
-
-// function displayText() {
-//     if (index < text.length) {
-//         const char = text.charAt(index);
-//         document.getElementById("bp1").innerHTML += char;
-//         index++;
-//         setTimeout(displayText, delay);
-//     } else {
-//         index = 0; // Reset index to repeat the animation
-//         document.getElementById("bp1").innerHTML = ""; // Clear the text
-//         setTimeout(displayText, delay);
-//     }
-// }
-
-// displayText();
-
-
+function toggleMenu() {
+    var menu1 = document.querySelector('.menu');
+    menu1.style.display = (menu1.style.display === 'none' || menu1.style.display === '') ? 'block' : 'none';
+}

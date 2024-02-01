@@ -31,3 +31,13 @@ function send() {
         document.getElementById("Mess").value = "";
     }
 }
+
+function toggleMenu() {
+    var menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+}
+
+function toggleMenu() {
+    var menu1 = document.querySelector('.menu');
+    menu1.style.display = (menu1.style.display === 'none' || menu1.style.display === '') ? 'block' : 'none';
+}
