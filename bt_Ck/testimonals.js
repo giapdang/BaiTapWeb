@@ -10,5 +10,3 @@ document.getElementById("button1").addEventListener("click", function() {
         this.style.animation = "";
     }, 1000);
 });
-
-
