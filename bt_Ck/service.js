@@ -21,3 +21,7 @@ function toggleMenu() {
     var menu1 = document.querySelector('.menu');
     menu1.style.display = (menu1.style.display === 'none' || menu1.style.display === '') ? 'block' : 'none';
 }
+
+function redirectToPage(url) {
+    window.location.href = url;
+}
