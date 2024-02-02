@@ -470,6 +470,8 @@
         align-items: flex-start;
         box-shadow: none;
         text-align: center;
+        opacity: 0.9;
+        background-color: #535050;
     }
 
     .logo {
@@ -490,9 +492,14 @@
         margin-top: 5px;
     }
 
+    .menu1 a {
+        color: white;
+    }
+
     .menu1 button {
         margin-left: 180px;
         margin-top: 10px;
+        margin-bottom: 15px;
     }
     .images {
         flex-direction: column;
@@ -574,6 +581,10 @@
     } */
 }
 
+.icon {
+    display: none;
+}
+
 
 @media (max-width: 768px) {
     .menu {
@@ -589,11 +600,11 @@
         font-size: 35px;
         text-align: center;
         line-height: 50px;
-        margin-top: 10px;
+        margin-top: -10px;
         margin-left: 10px;
         position: fixed;
         /* Change position to fixed */
-        z-index: 999;
+        z-index: 9999;
     }
 
 }

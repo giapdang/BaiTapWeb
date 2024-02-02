@@ -249,13 +249,15 @@
         align-items: flex-start;
         box-shadow: none;
         text-align: center;
+        opacity: 0.9;
+        background-color: #535050;
     }
 
     .menu {
         position: fixed;
         top: 0;
         width: 100%;
-        background-color: #fff;
+        /* background-color: #fff; */
         transition: top 0.3s;
         z-index: 999;
     }
@@ -280,6 +282,10 @@
     .menu1 li {
         margin-left: 0;
         margin-top: 5px;
+    }
+
+    .menu1 a {
+        color: white;
     }
 
     .menu1 button {
@@ -326,7 +332,7 @@
         margin-left: 10px;
         position: fixed;
         /* Change position to fixed */
-        z-index: 999;
+        z-index: 9999;
     }
 
 }

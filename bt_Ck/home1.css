@@ -280,9 +280,11 @@
         position: fixed;
         top: 0;
         width: 100%;
-        background-color: #fff;
+        background-color: #535050;
         transition: top 0.3s;
         z-index: 999;
+        opacity: 0.9;
+        color: white;
     }
 
     .menu.scrolled {
@@ -307,9 +309,14 @@
         margin-top: 5px;
     }
 
+    .menu1 a {
+        color: white;
+    }
+
     .menu1 button {
         margin-left: 180px;
         margin-top: 10px;
+        margin-bottom: 15px;
     }
 
     .noidung {
@@ -360,6 +367,10 @@
     }
 }
 
+.icon {
+    display: none;
+}
+
 
 @media (max-width: 768px) {
     .menu {
@@ -379,7 +390,7 @@
         margin-left: 10px;
         position: fixed;
         /* Change position to fixed */
-        z-index: 999;
+        z-index: 9999;
     }
 
 }
