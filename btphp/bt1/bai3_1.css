@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+fieldset {
+    width: 70%;
+    text-align: center;
+    margin-top: 200px;
+    border: 2px solid rgb(80, 106, 226);
+}
+
+#lb1 {
+    font-size: 20px;
+    color: royalblue;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    width: 90px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+input {
+    font-size: 20px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#lb2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: royalblue;
+    font-weight: bold;
+}
+
+a {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
