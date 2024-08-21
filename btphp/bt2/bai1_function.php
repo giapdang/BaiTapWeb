@@ -3,7 +3,7 @@ function hienThiFormNhapSoLuong($n) {
     echo '<form action="bai1.php" method="post">';
     echo '<fieldset>';
     echo '<legend>Nhập số lượng phần tử</legend>';
-    echo '<input type="text" name="n" placeholder="Nhập n" value="' . htmlspecialchars($n) . '">';
+    echo '<input type="text" name="n" placeholder="Nhập n" value="' . htmlspecialchars($n) . '" required>';
     echo '<input type="submit" value="Nhập">';
     echo '</fieldset>';
     echo '</form>';
@@ -15,7 +15,7 @@ function hienThiFormNhapPhanTu($n) {
     echo '<legend>Nhập các phần tử của mảng</legend>';
     echo '<input type="hidden" name="n" value="' . htmlspecialchars($n) . '">';
     for ($i = 0; $i < $n; $i++) {
-        echo '<input type="text" name="arr[]" placeholder="Nhập giá trị phần tử ' . ($i + 1) . '"><br>';
+        echo '<input type="text" name="arr[]" placeholder="Nhập giá trị phần tử ' . ($i + 1) . '" required><br>';
     }
     echo '<input type="submit" value="Sắp xếp và tìm kết quả">';
     echo '</fieldset>';
@@ -51,7 +51,7 @@ function xuLyMang($arr) {
     foreach ($arr as $value) {
         echo '<input type="hidden" name="arr[]" value="' . htmlspecialchars($value) . '">';
     }
-    echo '<input type="text" name="find" placeholder="Nhập số cần tìm">';
+    echo '<input type="text" name="find" placeholder="Nhập số cần tìm" required>';
     echo '<input type="submit" value="Tìm số">';
     echo '</fieldset>';
     echo '</form>';
