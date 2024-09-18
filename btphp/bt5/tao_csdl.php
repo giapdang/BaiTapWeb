@@ -7,9 +7,9 @@
 </head>
 <body>
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "sql110.infinityfree.com";
+$username = "if0_37102022";
+$password = "GhYybBSbQZj";
 
 try {
     // Kết nối đến MySQL server
@@ -18,12 +18,12 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Tạo cơ sở dữ liệu
-    $sql = "CREATE DATABASE IF NOT EXISTS b5_mydb";
+    $sql = "CREATE DATABASE IF NOT EXISTS if0_37102022_b5_mydb";
     $conn->exec($sql);
     echo "Database created successfully<br>";
 
     // Kết nối đến cơ sở dữ liệu myDBPDO
-    $conn->exec("USE b5_mydb");
+    $conn->exec("USE if0_37102022_b5_mydb");
 
     // Tạo bảng
     $sql = "CREATE TABLE IF NOT EXISTS MyGuests (

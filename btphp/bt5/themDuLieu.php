@@ -7,10 +7,10 @@
 </head>
 <body>
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "b5_mydb";
+$servername = "sql110.infinityfree.com";
+$username = "if0_37102022";
+$password = "GhYybBSbQZj";
+$dbname = "if0_37102022_b5_mydb";
 
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
